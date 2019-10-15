@@ -1,0 +1,315 @@
+@font-face {
+  font-family: "Open SansSI";
+  src: local("Open Sans Semibold Italic"), local("OpenSans-SemiboldItalic"),
+    url("assets/fonts/OpenSans-SemiboldItalic.woff2") format("woff2"),
+    url("assets/fonts/OpenSans-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PT Sans Caption";
+  src: local("PT Sans Caption"), local("PTSans-Caption"),
+    url("assets/fonts/PTSans-Caption.woff2") format("woff2"),
+    url("assets/fonts/PTSans-Caption.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  src: local("PT Sans Narrow"), local("PTSans-Narrow"),
+    url("assets/fonts/PTSans-Narrow.woff2") format("woff2"),
+    url("assets/fonts/PTSans-Narrow.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open SansS";
+  src: local("Open Sans Semibold"), local("OpenSans-Semibold"),
+    url("assets/fonts/OpenSans-Semibold.woff2") format("woff2"),
+    url("assets/fonts/OpenSans-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT SansNB";
+  src: local("PT Sans Narrow Bold"), local("PTSans-NarrowBold"),
+    url("assets/fonts/PTSans-NarrowBold.woff2") format("woff2"),
+    url("assets/fonts/PTSans-NarrowBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open SansBI";
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"),
+    url("assets/fonts/OpenSans-BoldItalic.woff2") format("woff2"),
+    url("assets/fonts/OpenSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: local("PT Sans"), local("PTSans-Regular"),
+    url("assets/fonts/PTSans-Regular.woff2") format("woff2"),
+    url("assets/fonts/PTSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT SansBI";
+  src: local("PT Sans Bold Italic"), local("PTSans-BoldItalic"),
+    url("assets/fonts/PTSans-BoldItalic.woff2") format("woff2"),
+    url("assets/fonts/PTSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open SansLI";
+  src: local("Open Sans Light Italic"), local("OpenSansLight-Italic"),
+    url("assets/fonts/OpenSansLight-Italic.woff2") format("woff2"),
+    url("assets/fonts/OpenSansLight-Italic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans"), local("OpenSans"),
+    url("assets/fonts/OpenSans.woff2") format("woff2"),
+    url("assets/fonts/OpenSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open SansE";
+  src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"),
+    url("assets/fonts/OpenSans-Extrabold.woff2") format("woff2"),
+    url("assets/fonts/OpenSans-Extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoe WPL";
+  src: local("Segoe WP Light"), local("SegoeWP-Light"),
+    url("assets/fonts/SegoeWP-Light.woff2") format("woff2"),
+    url("assets/fonts/SegoeWP-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoe WP";
+  src: local("Segoe WP"), local("SegoeWP"),
+    url("assets/fonts/SegoeWP.woff2") format("woff2"),
+    url("assets/fonts/SegoeWP.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans Caption";
+  src: local("PT Sans Caption Bold"), local("PTSans-CaptionBold"),
+    url("assets/fonts/PTSans-CaptionBold.woff2") format("woff2"),
+    url("assets/fonts/PTSans-CaptionBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open SansEI";
+  src: local("Open Sans Extrabold Italic"), local("OpenSans-ExtraboldItalic"),
+    url("assets/fonts/OpenSans-ExtraboldItalic.woff2") format("woff2"),
+    url("assets/fonts/OpenSans-ExtraboldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PT SansB";
+  src: local("PT Sans Bold"), local("PTSans-Bold"),
+    url("assets/fonts/PTSans-Bold.woff2") format("woff2"),
+    url("assets/fonts/PTSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT SansI";
+  src: local("PT Sans Italic"), local("PTSans-Italic"),
+    url("assets/fonts/PTSans-Italic.woff2") format("woff2"),
+    url("assets/fonts/PTSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open SansB";
+  src: local("Open Sans Bold"), local("OpenSans-Bold"),
+    url("assets/fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("assets/fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open SansI";
+  src: local("Open Sans Italic"), local("OpenSans-Italic"),
+    url("assets/fonts/OpenSans-Italic.woff2") format("woff2"),
+    url("assets/fonts/OpenSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open SansL";
+  src: local("Open Sans Light"), local("OpenSans-Light"),
+    url("assets/fonts/OpenSans-Light.woff2") format("woff2"),
+    url("assets/fonts/OpenSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: local("Asap Medium"), local("Asap-Medium"),
+    url("assets/fonts/Asap-Medium.woff2") format("woff2"),
+    url("assets/fonts/Asap-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: local("Asap Regular"), local("Asap-Regular"),
+    url("assets/fonts/Asap-Regular.woff2") format("woff2"),
+    url("assets/fonts/Asap-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: local("Asap Italic"), local("Asap-Italic"),
+    url("assets/fonts/Asap-Italic.woff2") format("woff2"),
+    url("assets/fonts/Asap-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: local("Asap Bold"), local("Asap-Bold"),
+    url("assets/fonts/Asap-Bold.woff2") format("woff2"),
+    url("assets/fonts/Asap-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Asap Symbol";
+  src: local("Asap Symbol"), local("Asap-Symbol"),
+    url("assets/fonts/Asap-Symbol.woff2") format("woff2"),
+    url("assets/fonts/Asap-Symbol.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: local("Asap MediumItalic"), local("Asap-MediumItalic"),
+    url("assets/fonts/Asap-MediumItalic.woff2") format("woff2"),
+    url("assets/fonts/Asap-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: local("Asap BoldItalic"), local("Asap-BoldItalic"),
+    url("assets/fonts/Asap-BoldItalic.woff2") format("woff2"),
+    url("assets/fonts/Asap-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lucida SansDI";
+  src: url("assets/fonts/LucidaSans-DemiItalic.woff2") format("woff2"),
+    url("assets/fonts/LucidaSans-DemiItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lucida Sans Typewriter";
+  src: url("assets/fonts/LucidaSans-TypewriterBoldOblique.woff2")
+      format("woff2"),
+    url("assets/fonts/LucidaSans-TypewriterBoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lucida Sans";
+  src: url("assets/fonts/LucidaSans.woff2") format("woff2"),
+    url("assets/fonts/LucidaSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lucida SansI";
+  src: url("assets/fonts/LucidaSans-Italic.woff2") format("woff2"),
+    url("assets/fonts/LucidaSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lucida Sans Typewriter";
+  src: url("assets/fonts/LucidaSans-TypewriterBold.woff2") format("woff2"),
+    url("assets/fonts/LucidaSans-TypewriterBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lucida Sans";
+  src: url("assets/fonts/LucidaSans-Demi.woff2") format("woff2"),
+    url("assets/fonts/LucidaSans-Demi.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lucida Sans Typewriter";
+  src: url("assets/fonts/LucidaSans-TypewriterOblique.woff2") format("woff2"),
+    url("assets/fonts/LucidaSans-TypewriterOblique.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lucida Sans Unicode";
+  src: url("assets/fonts/LucidaSansUnicode.woff2") format("woff2"),
+    url("assets/fonts/LucidaSansUnicode.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lucida Sans Typewriter";
+  src: url("assets/fonts/LucidaSans-Typewriter.woff2") format("woff2"),
+    url("assets/fonts/LucidaSans-Typewriter.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
