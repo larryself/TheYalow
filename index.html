@@ -15,9 +15,9 @@
 <body>
   <main class="main">
     <div class="main-content">
-      <div class="main__button">
-        <button class="left">&#60;</button>
-        <button class="right">&#62;</button>
+      <div class="main__button only-dekstop">
+        <button class="main-button__left">&#60;</button>
+        <button class="main-button__right">&#62;</button>
       </div>
       <div class="wrap">
         <header class="header">
@@ -51,7 +51,8 @@
           <div class="header__navigation">
             <ul class="header__menu">
               <li class="header-menu__item menu-item__aboutus">
-                <a href="" class="header-menu__link"><img class="header-menu__icon" src="assets/image/about-us.png  "
+                <a href="" class="header-menu__link"><img class="header-menu__icon" 
+                  src="assets/image/about-us.png  "
                     alt="abous-us" /><span>About us</span></a>
               </li>
               <li class="header-menu__item menu-item__services">
@@ -65,15 +66,15 @@
             </ul>
           </div>
         </header>
-        <div class="video-block">
-          <div class="main__video">
+        <div class="video-content">
+          <div class="video-content__video">
             <video poster="assets/image/image1.png" controls="">
               <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
               <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv" type="video/ogg">
               <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm">
             </video>
           </div>
-          <div class="text-header">
+          <div class="video-content__title only-dekstop">
             <p>The cool <span>The minimal</span></p>
           </div>
         </div>
@@ -99,88 +100,88 @@
         </div>
       </div>
     </section>
-    <section class="video-2">
+    <section class="slide-block">
       <div class="wrap">
-        <div class="title-video-2">
+        <div class="slide-block__title only-dekstop">
           <p>Lorem ipsum dolor sit amet</p>
         </div>
-        <div class="wrapper-video-2">
+        <div class="slide-block-wrapper">
           <div class="video2">
-            <div class="left-video">
-              <p>Lorem ipsum dolor sit amet, consecte&shytur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
-              <button>+</button>
+            <div class="left-video slide-info">
+              <p class="slide-info__item">Lorem ipsum dolor sit amet, consecte&shytur adipisicing elit, sed do eiusmod
+                tempor incididunt ut</p>
+              <button class="slide-info__button">+</button>
             </div>
-            <div class="right-video">
+            <div class="slide-video">
               <video poster="assets/image/image.png">
                 <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
                 <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv" type="video/ogg">
                 <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm"></video>
             </div>
           </div>
-          <div class="twitter">
-            <div class="twitter-image">
-              <img src="assets/image/main/twitter.png" alt="">
-              <span class="only-dekstop-twitter">22</span>
-              <button class="only-dekstop-twitter-button">+</button>
+          <div class="slide-twitter">
+            <div class="twitter">
+              <img class="twitter-image" src="assets/image/main/twitter.png" alt="">
+              <span class="only-dekstop-twitter only-dekstop">22</span>
+              <button class="twitter-button only-dekstop">+</button>
             </div>
-            <div class="tweet">
-              <ul>
-                <li>
-                  <p>Daily Mobile UI Design Inspiration #1
-                    <span>via @cssauthor</span></p>
+            <div class="twitter-message only-mobile">
+              <ul class="">
+                <li class="message">
+                  <p class="message__text">Daily Mobile UI Design Inspiration #1
+                    <span class="message__sign">via @cssauthor</span></p>
                 </li>
-                <li>
-                  <p>Daily Mobile UI Design Inspiration #1
-                    <span>via @cssauthor</span></p>
+                <li class="message">
+                  <p class="message__text">Daily Mobile UI Design Inspiration #1
+                    <span class="message__sign">via @cssauthor</span></p>
                 </li>
-                <li>
-                  <p>Daily Mobile UI Design Inspiration #1
-                    <span>via @cssauthor</span></p>
+                <li class="message">
+                  <p class="message__text">Daily Mobile UI Design Inspiration #1
+                    <span class="message__sign">via @cssauthor</span></p>
                 </li>
               </ul>
-              <form class="header-search">
-                <input type="text" name="searching-line" class="input-line">
-                <button>Tweet</button>
+              <form class="twitter-line">
+                <input type="text" name="twitter-line" class="twitter-line__input">
+                <button class="twitter-line__button">Tweet</button>
               </form>
             </div>
           </div>
         </div>
         <div class="date">
-          <p><span class="date__day">25</span>april</p>
+          <p class="date__month"><span class="date__day">25</span>april</p>
         </div>
-        <div class="radio2">
-          <input type="range" class="radio">
+        <div class="scroll-line only-dekstop">
+          <input type="range" class="scroll-line_item">
         </div>
       </div>
     </section>
     <section class="section">
       <div class="wrap">
-        <div class="table">
-          <p class="title">Lorem ipsum dolor sit amet</p>
-        </div>  
-          <div class="table-content">
-            <div class="imgdekstop">
-              <div class="ellipse-3"><span>Its 100% Free</span> </div>
-              <img src="assets/image/ver.png" alt="">
-            </div>
-            <div class="table-ulli-only-dekstop">
-              <ul>
-                <li>
-                  <p>Sed ut perspiciatis unde omnis</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
-                </li>
-                <li>
-                  <p>Sed ut perspiciatis unde omnis copy</p>
-                </li>
-                <li>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing copy</p>
-                </li>
-              </ul>
-            </div>
+        <div class="title">
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="divece-info">
+          <div class="device">
+            <div class="sticker"><span class="sticker__item">Its 100% Free</span> </div>
+            <img class="device__image" src="assets/image/ver.png" alt="">
           </div>
-       
+          <div class="table-ulli-only-dekstop info only-dekstop">
+            <ul>
+              <li class="info__item">
+                <p>Sed ut perspiciatis unde omnis</p>
+              </li>
+              <li class="info__item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+              </li>
+              <li class="info__item">
+                <p>Sed ut perspiciatis unde omnis copy</p>
+              </li>
+              <li class="info__item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing copy</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   </main>
