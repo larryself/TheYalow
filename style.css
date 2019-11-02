@@ -270,7 +270,7 @@ body {
 }
 
 @media screen and (min-width: 1050px) {
-  .menu__item { 
+  .menu__item {
     width: 34%;
     justify-content: center;
     border-right: 1px solid #dbdbdb;
@@ -408,8 +408,9 @@ body {
   width: 50%;
 }
 @media screen and (min-width: 1050px) {
-.twitter {
-  width: 100%;
+  .twitter {
+    width: 100%;
+  }
 }
 .twitter-image {
   width: 166px;
